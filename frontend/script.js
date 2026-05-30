@@ -1,4 +1,4 @@
-const API_URL = "https://YOUR-RENDER-URL.onrender.com/users"
+const API_URL = "https://crudgo.onrender.com/users"
 
 function showMessage(text, color) {
 
