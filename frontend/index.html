@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Go CRUD App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Go CRUD App</h1>
+
+    <div class="form-container">
+
+      <input type="number" id="id" placeholder="Enter ID">
+
+      <input type="text" id="name" placeholder="Enter Name">
+
+      <input type="number" id="age" placeholder="Enter Age">
+
+      <div class="button-group">
+        <button onclick="addUser()">Add User</button>
+        <button onclick="updateUser()">Update User</button>
+      </div>
+
+      <p id="message"></p>
+
+    </div>
+
+    <div id="users-container"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

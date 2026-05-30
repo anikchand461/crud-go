@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+
+  background: #2563eb;
+  color: white;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#message {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#users-container {
+  display: grid;
+  gap: 20px;
+}
+
+.user-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.user-card h2 {
+  margin-bottom: 12px;
+}
+
+.user-card p {
+  margin-bottom: 8px;
+}
+
+.card-buttons {
+  margin-top: 15px;
+
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  background: #059669;
+}
+
+.edit-btn:hover {
+  background: #047857;
+}
+
+.delete-btn {
+  background: #dc2626;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+@media (max-width: 600px) {
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .card-buttons {
+    flex-direction: column;
+  }
+}
